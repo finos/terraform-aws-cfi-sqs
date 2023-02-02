@@ -1,23 +1,7 @@
-# Terraform Child Module Template
+# Compliant Amazon Simple Queue Service (SQS) 
 
-## To get a new child module
-
-To clone this repo for a new child module, please create an issue using the following format:
-
-- **Title:**  `Create repo: your-repo-name`
-- **Subject:** *A short blurb explaining what this repo is for and who will contribute to it*
-
-Discussion from the community and approval from the maintainers should then take place. Upon maintainer approval, a FINOS technical support staff member should be contacted and assigned the issue.
-
-## After your new repo is created
-
-Adjust this readme as part of your first commit after creating a repository from this template.
-
-[See here](https://github.com/terraform-docs/terraform-docs) for more information about the Terraform docs generator.
-
-Example of generated docs is below.
-
------
+This module is intended to serve as a child Terraform module which delivers a financially compliant SQS instance.
+The work is pending and the module not ready for use at this time.
 
 <!-- BEGIN_TF_DOCS -->
 [![FINOS - Incubating](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-incubating.svg)](https://finosfoundation.atlassian.net/wiki/display/FINOS/Incubating)
@@ -107,10 +91,3 @@ Distributed under the
 SPDX-License-Identifier: [Apache-2.0](https://spdx.org/licenses/Apache-2.0)
 <!-- END_TF_DOCS -->
 
-Run this when you create a repo: 
-
-```sh
-echo '/usr/local/bin/terraform-docs md --output-file README.md .' >> .git/hooks/pre-commit && chmod a+x .git/hooks/pre-commit
-```
-
-Then delete this message.
